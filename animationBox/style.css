@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.animation-container {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.animation-body {
+  background-color: #6bbcbe;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  will-change: transform;
+}
+
+.animation-box {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  transform-origin: -5, 0;
+  will-change: transform;
+  animation: scaleCircle 1s ease-in-out infinite;
+  transition: all ease-in-out 1s;
+}
+
+.animation-box__circle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+}
+
+@keyframes scaleCircle {
+  to {
+    transform: rotate(0);
+  }
+
+  from {
+    transform: rotateZ(1turn);
+  }
+}
+
+.animation-box__five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-box__suqare {
+  background-color: aliceblue;
+  width: 10px;
+  height: 50px;
+  margin-right: 5px;
+  margin-top: 70px;
+  animation: squareScale 1.5s ease-in-out infinite;
+}
+
+@keyframes squareScale {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: scale(1.5);
+  }
+
+  50%,
+  100% {
+    transform: none;
+  }
+}
+
+.animation-box__suqare {
+  margin-right: 10px;
+}
+.animation-box__suqare:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.animation-box__suqare:nth-child(3) {
+  animation-delay: 0.35s;
+}
+.animation-box__suqare:nth-child(4) {
+  animation-delay: 0.47s;
+}
+.animation-box__suqare:nth-child(5) {
+  animation-delay: 0.6s;
+}
