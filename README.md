@@ -8,39 +8,39 @@ html 및 css 연습입니다.
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209334557-d26a447a-0be2-4810-b07a-6bdd59732c8c.png">
 </p>
 
-## animationBox
+## <h1> animationBox
 
 <p>
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209335603-6b309b31-352f-4730-9959-c575feb79a07.gif">
 </p>
 
-### flexPositionBox
+## <h1> flexPositionBox
 
 <p>
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209335322-fe06d403-8368-4194-8ff4-e14e3bff5371.png">
 </p>
 
 
-### library
+## <h1> library
 
 <p>
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209335406-51804c25-305d-40c6-8ef7-67b50fd61e9b.png">
 </p>
 
-### musicplaylist
+## <h1> musicplaylist
 
 <p>
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209335485-ccace612-a1c7-47ba-a7bc-56215717cbc3.png">
 </p>
 
-### playlist
+## <h1> playlist
 
 <p>
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209335513-3e1dbafb-f7b5-4f4b-994f-30d6bffd580f.png">
 </p>
 
 
-### squareBox
+## <h1> squareBox
 
 <p>
 <img width="600px" height="600px" src="https://user-images.githubusercontent.com/111720411/209335550-3b24a1a7-af10-42ef-8e3d-5ec042f1d3e7.png">
